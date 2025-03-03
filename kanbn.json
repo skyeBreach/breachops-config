@@ -1,6 +1,12 @@
 {
-    "mainFolder": "docs/project",
-    "indexFile": "task-board.md",
-    "taskFolder": "tasks",
-    "archiveFolder": "tasks/archived"
+    "startedColumns": [
+        "In Progress"
+    ],
+    "completedColumns": [
+        "Done"
+    ],
+    "mainFolder": "docs/project_management",
+    "indexFile": "kanban_board.md",
+    "taskFolder": "issues",
+    "archiveFolder": "issues/archived"
 }
