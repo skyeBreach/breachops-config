@@ -1,0 +1,23 @@
+[package]
+name = "breachops-config"
+version = "0.1.0"
+description = """
+(Hopefully) A fully and extensibly configrable dotfile config manager, built in rust.
+"""
+authors = ["skyeBreach <skyebreach@proton.me>"]
+categories = ["command-line-utilities"]
+keywords = ["cli"]
+homepage = "https://github.com/skyeBreach/breachops-config"
+documentation = "https://github.com/skyeBreach/breachops-config"
+repository = "https://github.com/skyeBreach/breachops-config"
+readme = "./README.md"
+license-file = "./LICENSE"
+edition = "2024"
+rust-version = "1.85"
+
+[[bin]]
+name = "bofig"
+path = "src/main.rs"
+bench = false
+
+[dependencies]
